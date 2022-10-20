@@ -1,0 +1,6 @@
+framework module PEPHomework {
+  umbrella header "PEPHomework.h"
+
+  export *
+  module * { export * }
+}
