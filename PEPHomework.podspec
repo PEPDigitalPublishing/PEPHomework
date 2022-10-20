@@ -15,10 +15,11 @@ Pod::Spec.new do |s|
 
     s.author          = { '李沛卓' => 'lipz@pep.com.cn' }
 
-    s.platform        = :ios, '11.0'
+    s.platform        = :ios, '10.0'
 
     s.source_files    = 'HomeworkSample/HomeworkSample/PEPHomework/*.{h,m}'
 
     s.frameworks      = 'Foundation', 'UIKit', 'WebKit'
-
+    
+    s.resources       = 'TBSPlus.bundle'
 end
