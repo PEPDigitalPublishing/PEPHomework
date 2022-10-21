@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
     s.name            = 'PEPHomework'
 
-    s.version         = '1.0.2'
+    s.version         = '1.0.3'
 
     s.summary         = 'PEP H5作业模块'
 
@@ -17,9 +17,8 @@ Pod::Spec.new do |s|
 
     s.platform        = :ios, '10.0'
 
-    s.source_files    = 'HomeworkSample/HomeworkSample/PEPHomework/*.{h,m}'
+    s.vendored_frameworks = 'PEPHomework.framework'
 
     s.frameworks      = 'Foundation', 'UIKit', 'WebKit'
-    
-    s.resources       = 'TBSPlus.bundle'
+
 end
